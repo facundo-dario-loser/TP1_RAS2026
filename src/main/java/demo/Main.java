@@ -1,3 +1,4 @@
+package demo;
 public class Main {
     public boolean esMayorDeEdad(int edad) {
         // BUG: Pusiste > en lugar de >= por distracción.

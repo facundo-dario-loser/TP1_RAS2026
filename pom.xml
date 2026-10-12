@@ -48,6 +48,22 @@
                 <artifactId>prapr-plugin</artifactId>
                 <version>2.0.2</version>
             </plugin>
+
+            <plugin>
+                <groupId>org.mudebug</groupId>
+                <artifactId>prapr-plugin</artifactId>
+                <version>2.0.2</version>
+                <configuration>
+                    <!-- Le decimos explícitamente qué paquetes mirar -->
+                    <targetClasses>
+                        <param>demo.*</param>
+                    </targetClasses>
+                    <targetTests>
+                        <param>demo.*</param>
+                    </targetTests>
+                </configuration>
+            </plugin>
+
         </plugins>
     </build>
 </project>
