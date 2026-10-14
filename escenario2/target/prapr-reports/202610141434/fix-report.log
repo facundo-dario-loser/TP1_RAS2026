@@ -1,0 +1,22 @@
+PraPR 2 (JDK 1.7) Fix Report - Wed Oct 14 14:34:50 ART 2026
+Number of Plausible Fixes: 2
+Total Number of Patches: 12
+================================================
+1.
+	Mutator: InlineConstantMutator
+	Description: Substituted 1 with 0
+	File Name: com/example/App.java
+	Line Number: 8
+	Rank: 1
+	Total Rank: 11
+	Dump: mutant-1.class
+------------------------------------------------
+2.
+	Mutator: ConditionalsBoundaryMutator
+	Description: changed conditional boundary
+	File Name: com/example/App.java
+	Line Number: 8
+	Rank: 2
+	Total Rank: 12
+	Dump: mutant-2.class
+------------------------------------------------
