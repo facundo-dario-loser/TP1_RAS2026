@@ -1,0 +1,58 @@
+PraPR 2 (JDK 1.7) Fix Report - Wed Oct 14 14:19:42 ART 2026
+Number of Plausible Fixes: 6
+Total Number of Patches: 8
+================================================
+1.
+	Mutator: InlineConstantMutator
+	Description: Substituted 0 with 1
+	File Name: com/example/App.java
+	Line Number: 11
+	Rank: 1
+	Total Rank: 3
+	Dump: mutant-3.class
+------------------------------------------------
+2.
+	Mutator: ConditionalsBoundaryMutator
+	Description: changed conditional boundary
+	File Name: com/example/App.java
+	Line Number: 8
+	Rank: 6
+	Total Rank: 8
+	Dump: mutant-1.class
+------------------------------------------------
+3.
+	Mutator: RemoveConditionalMutator_ORDER_IF
+	Description: removed conditional - replaced comparison check with true
+	File Name: com/example/App.java
+	Line Number: 8
+	Rank: 6
+	Total Rank: 8
+	Dump: mutant-2.class
+------------------------------------------------
+4.
+	Mutator: ReturnValsMutator
+	Description: replaced return of integer sized value with (x == 0 ? 1 : 0)
+	File Name: com/example/App.java
+	Line Number: 11
+	Rank: 6
+	Total Rank: 8
+	Dump: mutant-6.class
+------------------------------------------------
+5.
+	Mutator: BooleanTrueReturnValsMutator
+	Description: replaced boolean return with true for com/example/App::esMayorDeEdad
+	File Name: com/example/App.java
+	Line Number: 11
+	Rank: 6
+	Total Rank: 8
+	Dump: mutant-5.class
+------------------------------------------------
+6.
+	Mutator: NegateConditionalsMutator
+	Description: negated conditional
+	File Name: com/example/App.java
+	Line Number: 8
+	Rank: 6
+	Total Rank: 8
+	Dump: mutant-4.class
+------------------------------------------------
