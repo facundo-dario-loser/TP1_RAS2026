@@ -1,0 +1,67 @@
+PraPR 2 (JDK 1.7) Fix Report - Wed Oct 14 14:54:15 ART 2026
+Number of Plausible Fixes: 7
+Total Number of Patches: 49
+================================================
+1.
+	Mutator: LocalNameMutator
+	Description: local objetivo is replaced by local derecha to be used
+	File Name: com/example/App.java
+	Line Number: 17
+	Rank: 5
+	Total Rank: 44
+	Dump: mutant-4.class
+------------------------------------------------
+2.
+	Mutator: LocalNameMutator
+	Description: local objetivo is replaced by local izquierda to be used
+	File Name: com/example/App.java
+	Line Number: 17
+	Rank: 5
+	Total Rank: 44
+	Dump: mutant-2.class
+------------------------------------------------
+3.
+	Mutator: LocalNameMutator
+	Description: local medio is replaced by local derecha to be used
+	File Name: com/example/App.java
+	Line Number: 17
+	Rank: 5
+	Total Rank: 44
+	Dump: mutant-3.class
+------------------------------------------------
+4.
+	Mutator: LocalNameMutator
+	Description: local objetivo is replaced by local medio to be used
+	File Name: com/example/App.java
+	Line Number: 17
+	Rank: 5
+	Total Rank: 44
+	Dump: mutant-5.class
+------------------------------------------------
+5.
+	Mutator: LocalNameMutator
+	Description: local medio is replaced by local objetivo to be used
+	File Name: com/example/App.java
+	Line Number: 18
+	Rank: 5
+	Total Rank: 44
+	Dump: mutant-6.class
+------------------------------------------------
+6.
+	Mutator: NegateConditionalsMutator
+	Description: negated conditional
+	File Name: com/example/App.java
+	Line Number: 17
+	Rank: 6
+	Total Rank: 47
+	Dump: mutant-8.class
+------------------------------------------------
+7.
+	Mutator: RemoveConditionalMutator_ORDER_ELSE
+	Description: removed conditional - replaced comparison check with false
+	File Name: com/example/App.java
+	Line Number: 17
+	Rank: 7
+	Total Rank: 49
+	Dump: mutant-1.class
+------------------------------------------------
